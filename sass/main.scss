@@ -1,0 +1,80 @@
+$primaryColor: #455F95;
+
+body {
+	background-color:$primaryColor;
+}
+
+h1 {
+	font-family: Oswald;
+	text-align:center;
+	color:$primaryColor;
+}
+
+h2 {
+	font-family: Raleway;
+	color:$primaryColor;
+	font-size:20px;
+}
+
+h3 {
+	font-family: Oswald;
+	color:$primaryColor;
+}
+
+p {
+	font-family: Raleway;
+	color:$primaryColor;
+}
+
+.Top, .Main, .Bottom {
+	width:60%;
+	height:200px;
+	margin-bottom:5px;
+	border-radius:2px;
+	background-color:white;
+}
+
+.Top {
+	margin-top:40px;
+	h3 {
+		margin-top:5px;
+		margin-left: 30px;
+		font-size: 20px;
+	}
+}
+
+audio{
+	margin-top:30px;
+	margin-left:30px;
+	width:90%;
+}
+
+.Main {
+	height:100px;
+	form{
+		margin-top: 35px;
+		margin-left:70px;
+	}
+	.artistSearch {
+		width:440px;
+	}
+	button{
+		background-color:$primaryColor;
+		color: white;
+		width:100px;
+		margin-left: 10px;
+		border-radius:5px;
+	}
+}
+
+.Bottom {
+	h2 {
+		margin-left:30px;
+		text-decoration: underline;
+	}
+}
+
+.Results {
+	width:100%;
+	border:2px dotted $primaryColor;
+}

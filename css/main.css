@@ -1,0 +1,61 @@
+body {
+  background-color: #455F95; }
+
+h1 {
+  font-family: Oswald;
+  text-align: center;
+  color: #455F95; }
+
+h2 {
+  font-family: Raleway;
+  color: #455F95;
+  font-size: 20px; }
+
+h3 {
+  font-family: Oswald;
+  color: #455F95; }
+
+p {
+  font-family: Raleway;
+  color: #455F95; }
+
+.Top, .Main, .Bottom {
+  width: 60%;
+  height: 200px;
+  margin-bottom: 5px;
+  border-radius: 2px;
+  background-color: white; }
+
+.Top {
+  margin-top: 40px; }
+  .Top h3 {
+    margin-top: 5px;
+    margin-left: 30px;
+    font-size: 20px; }
+
+audio {
+  margin-top: 30px;
+  margin-left: 30px;
+  width: 90%; }
+
+.Main {
+  height: 100px; }
+  .Main form {
+    margin-top: 35px;
+    margin-left: 70px; }
+  .Main .artistSearch {
+    width: 440px; }
+  .Main button {
+    background-color: #455F95;
+    color: white;
+    width: 100px;
+    margin-left: 10px;
+    border-radius: 5px; }
+
+.Bottom h2 {
+  margin-left: 30px;
+  text-decoration: underline; }
+
+.Results {
+  width: 100%;
+  border: 2px dotted #455F95; }
