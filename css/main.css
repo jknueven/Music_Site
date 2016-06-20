@@ -32,6 +32,8 @@ p {
     margin-top: 5px;
     margin-left: 30px;
     font-size: 20px; }
+  .Top p {
+    margin: -29px 140px 10px; }
 
 audio {
   margin-top: 30px;
@@ -55,15 +57,22 @@ audio {
 .Bottom {
   height: auto; }
   .Bottom h2 {
+    color: #F87A24;
     margin-left: 30px;
     text-decoration: underline; }
 
 .Results {
   width: 100%;
   height: auto;
-  background-color: white;
-  display: inline-block; }
+  background-color: white; }
   .Results .resultName {
-    float: center; }
+    width: 160px;
+    display: inline-block;
+    margin-left: 20px; }
+    .Results .resultName p {
+      margin-top: 40px; }
   .Results .resultArt {
-    margin-top: 5px; }
+    margin-top: 5px;
+    margin-left: 5px;
+    padding-bottom: 10px;
+    display: inline-block; }

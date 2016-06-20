@@ -43,6 +43,9 @@ p {
 		margin-left: 30px;
 		font-size: 20px;
 	}
+	p {
+	margin: -29px 140px 10px;
+	}
 }
 
 audio{
@@ -72,6 +75,7 @@ audio{
 .Bottom {
 	height:auto;
 	h2 {
+		color:$secondaryColor;
 		margin-left:30px;
 		text-decoration: underline;
 	}
@@ -81,11 +85,18 @@ audio{
 	width:100%;
 	height:auto;
 	background-color:white;
-	display:inline-block;
 	.resultName {
-		float:center;
+		width:160px;
+		display: inline-block;
+		margin-left: 20px;
+		p{
+			margin-top:40px;
+		}
 	}
 	.resultArt{
 		margin-top:5px;
+		margin-left: 5px;
+		padding-bottom:10px;
+		display: inline-block;
 	}
 }
