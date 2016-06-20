@@ -14,7 +14,14 @@ $( document ).ready(function() {
 		{
 			songs.forEach(function(song)
 			{
-				$('.Results').append("<div class='resultName'><p>"+song.title+"</p></div><div class='resultArt'><img data-title='"+song.title+"' data-soundcloud='"+song.id+"' src='"+song.artwork_url+"'></div>");
+				var imgHolder = null;
+				if (song.artwork_url === null){
+					imgHolder = "http://placehold.it/100x100";
+				}
+				else {
+					imgHolder = song.artwork_url;
+				}
+				$('.Results').append("<div class='resultName'><p>"+song.title+"</p></div><div class='resultArt'><img data-title='"+song.title+"' data-soundcloud='"+song.id+"' src='"+imgHolder+"'></div>");
 
 			});
 			$(".artistSearch").val("");
