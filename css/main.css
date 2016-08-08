@@ -38,7 +38,8 @@ p {
 audio {
   margin-top: 30px;
   margin-left: 30px;
-  width: 90%; }
+  width: 90%;
+  background-color: #e26007; }
 
 .Main {
   height: 100px; }
@@ -52,13 +53,16 @@ audio {
     color: white;
     width: 100px;
     margin-left: 10px;
+    border: none;
     border-radius: 5px; }
 
 .Bottom {
   height: auto; }
   .Bottom h2 {
     color: #F87A24;
+    font-family: "Oswald";
     margin-left: 30px;
+    margin-bottom: 20px;
     text-decoration: underline; }
 
 .Results {
@@ -70,7 +74,7 @@ audio {
     display: inline-block;
     margin-left: 20px; }
     .Results .resultName p {
-      margin-top: 40px; }
+      margin-top: 50px; }
   .Results .resultArt {
     margin-top: 5px;
     margin-left: 5px;

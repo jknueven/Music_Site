@@ -52,6 +52,7 @@ audio{
 	margin-top:30px;
 	margin-left:30px;
 	width:90%;
+	background-color: darken($secondaryColor,10);
 }
 
 .Main {
@@ -68,6 +69,7 @@ audio{
 		color: white;
 		width:100px;
 		margin-left: 10px;
+		border:none;
 		border-radius:5px;
 	}
 }
@@ -76,7 +78,9 @@ audio{
 	height:auto;
 	h2 {
 		color:$secondaryColor;
+		font-family: "Oswald";
 		margin-left:30px;
+		margin-bottom: 20px;
 		text-decoration: underline;
 	}
 }
@@ -90,7 +94,7 @@ audio{
 		display: inline-block;
 		margin-left: 20px;
 		p{
-			margin-top:40px;
+			margin-top:50px;
 		}
 	}
 	.resultArt{
