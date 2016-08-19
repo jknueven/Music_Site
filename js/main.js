@@ -35,7 +35,7 @@ $( document ).ready(function() {
 	{
 		var sc = $(this).data('soundcloud');
 		$( "audio" ).attr( "src", function(){
-  		return "http://api.soundcloud.com/tracks/"+sc+"/stream?client_id=03e4633e2d85874a921380e47cac705d";
+  		return "http://api.soundcloud.com/tracks/"+sc+"/stream?client_id=4767ade727d51fd1e43a49a62b21ef8c";
 		});
 		var sc1 = $(this).data('title');
 		$( ".playing p").html(sc1);
