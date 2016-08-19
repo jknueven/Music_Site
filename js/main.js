@@ -8,7 +8,7 @@ $( document ).ready(function() {
 		var artist = $(".artistSearch").val();
 
 		$.ajax({
-		url: "http://api.soundcloud.com/tracks?client_id=4767ade727d51fd1e43a49a62b21ef8c&q="+artist,
+		url: "https://api.soundcloud.com/tracks?client_id=4767ade727d51fd1e43a49a62b21ef8c&q="+artist,
 		type:"GET",
 		success: function(songs)
 		{
@@ -35,7 +35,7 @@ $( document ).ready(function() {
 	{
 		var sc = $(this).data('soundcloud');
 		$( "audio" ).attr( "src", function(){
-  		return "http://api.soundcloud.com/tracks/"+sc+"/stream?client_id=4767ade727d51fd1e43a49a62b21ef8c";
+  		return "https://api.soundcloud.com/tracks/"+sc+"/stream?client_id=4767ade727d51fd1e43a49a62b21ef8c";
 		});
 		var sc1 = $(this).data('title');
 		$( ".playing p").html(sc1);
